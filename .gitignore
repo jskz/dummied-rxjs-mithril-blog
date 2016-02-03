@@ -1,0 +1,15 @@
+.*
+!.travis.yml
+!.babelrc
+!.gitattributes
+!.gitignore
+
+node_modules
+*.db
+
+*.log
+*.so
+.DS_Store
+build
+
+static/bundle.js

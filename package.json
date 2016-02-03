@@ -1,0 +1,32 @@
+{
+  "name": "rx-mithril-dummied-blog",
+  "version": "1.0.0",
+  "description": "More RxJS/RFP experiments.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "selectors",
+    "rx",
+    "rfp"
+  ],
+  "author": "James Skarzinskas",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "babel-plugin-syntax-object-rest-spread": "^6.3.13",
+    "babel-plugin-transform-async-to-generator": "^6.4.6",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^1.1.2",
+    "koa-logger": "^1.3.0",
+    "koa-static": "^2.0.0",
+    "mithril": "^0.2.0",
+    "rx": "^4.0.7"
+  }
+}
